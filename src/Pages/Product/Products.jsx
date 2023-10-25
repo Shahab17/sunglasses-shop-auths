@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 const Products = () => {
-  const products = useLoaderData({});
+  const products = useLoaderData();
   console.log(products);
 
   return (
